@@ -984,6 +984,12 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eMailDeliveryAvailable'
+        ],
+        'ReasonHideFromSearch123' => [
+            'type' => 'string',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'ReasonHideFromSearch123'
         ]
     ];
 
