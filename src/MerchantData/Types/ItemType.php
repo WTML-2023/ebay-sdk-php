@@ -985,12 +985,12 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'attribute' => false,
             'elementName' => 'eMailDeliveryAvailable'
         ],
-        'ReasonHideFromSearch123' => [
-            'type' => 'string',
+        'ConditionDescriptors' => [
+            'type' => 'DTS\eBaySDK\MerchantData\Types\ConditionDescriptorsType',
             'repeatable' => false,
             'attribute' => false,
-            'elementName' => 'ReasonHideFromSearch123'
-        ]
+            'elementName' => 'ConditionDescriptors'
+        ],
     ];
 
     /**
